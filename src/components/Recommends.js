@@ -150,7 +150,7 @@ const Recommends = (props) => {
                 />
                 {current?.secondtitleImg != null ? (
                   <img
-                    style={{ width: "100%" }}
+                    style={{ width: "100%", marginLeft: 20 }}
                     alt={current?.detail ? current?.detail : ""}
                     src={current?.secondtitleImg ? current?.secondtitleImg : ""}
                   />
@@ -268,7 +268,7 @@ const Background = styled.div`
 `;
 
 const ImageTitle = styled.div`
-  align-items: flex-end;
+  align-items: center;
   display: flex;
   -webkit-box-pack: start;
   justify-content: flex-start;
